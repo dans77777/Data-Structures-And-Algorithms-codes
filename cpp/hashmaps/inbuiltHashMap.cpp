@@ -20,7 +20,7 @@ int main()
 
    //Access invalid values
 
-   //cout<<mymap.at("ab")<<endl;//ii will throw exception
+   
    cout<<mymap["ab"]<<endl;// i will push into map and return value 0;
 
    //check value is present in map or not
