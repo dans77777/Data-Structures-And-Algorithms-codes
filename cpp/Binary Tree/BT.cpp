@@ -35,7 +35,7 @@ BTNode<int>* takeInput(){
      root->right = takeInput();
     return root;
 }
-
+//take input levelWise
 BTNode<int>* takeInputLevelWise(){
     int rootData;
     cout<<"Enter root data"<<endl;
